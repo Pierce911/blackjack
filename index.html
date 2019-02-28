@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blackjack Table</title> 
+        <link rel="icon" 
+        type="image/png" 
+        href="images/cardback.gif"/>
+    </head>
+
+    <body>
+        <h1>Game</h1>
+        <form ID="table">
+            <p id="deckCount">0</p> <br>
+
+            <button type="button" onclick="shuffleButton()">Shuffle Cards</button>
+            <button type="button" onclick="dealHandButton()">Deal Hand</button> <br>
+            
+            <br>
+            <!-- <p id="dealerHand" class="hand"></p>
+                <button type="button" onclick="hitDealerButton()">Hit Dealer</button> <br>
+            </p> -->
+            
+            <button type="button" onclick="hitPlayerButton()">Hit Player</button> 
+            <p id="playerHand" class="hand"></p>
+      
+            </p>
+            
+        </form>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="scripts/main.js"></script>
+</html>
